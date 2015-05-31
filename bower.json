@@ -1,0 +1,23 @@
+{
+  "name": "nocrew",
+  "version": "0.2.1",
+  "homepage": "https://github.com/gbrlsepulveda/nocrew",
+  "authors": [
+    "Filipe Bessa <filipebessa.web@gmail.com>"
+  ],
+  "description": "Nocrew",
+  "main": "app/index.php",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/assets/bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.10.2",
+    "jquery-meiomask": "~1.1.13",
+    "modernizr": "~2.7.1"
+  }
+}

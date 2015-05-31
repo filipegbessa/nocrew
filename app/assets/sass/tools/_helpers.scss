@@ -1,0 +1,96 @@
+@import "compass/css3";
+
+.no-float { float: none; }
+.f-right { float: right; }
+.f-left { float: left; }
+
+.c-both { clear: both; }
+.c-right { clear: right; }
+.c-left { clear: left; }
+
+.d-block { display: block; }
+.d-inline {
+    display: inline;
+    float: none;
+}
+.d-inline-block {
+    display: inline-block;
+    float: none;
+}
+.hide { display: none; }
+.hide-accessible {
+    position:absolute;
+    top:-9999px;
+    left:-9999px;
+}
+
+.p-absolute {
+    position: absolute;
+}
+.p-top { top: 0; }
+.p-left { left: 0; }
+.p-right { right: 0; }
+.p-bottom { bottom: 0; }
+
+.no-margin { margin:0; }
+.no-margin-left { margin-left:0; }
+.no-margin-right { margin-right:0; }
+.no-margin-top { margin-top:0; }
+.no-margin-bottom { margin-bottom:0; }
+
+.no-padding { padding:0; }
+.no-padding-left { padding-left:0; }
+.no-padding-right  {padding-right:0; }
+.no-padding-top { padding-top:0; }
+.no-padding-bottom { padding-bottom:0; }
+
+.txt-left { text-align:left; }
+.txt-right { text-align:right; }
+.txt-justify { text-align:justify; }
+.txt-center { text-align:center; }
+
+.no-border { border:none; }
+.no-border-right { border-right:none; }
+.no-border-left { border-left:none; }
+.no-border-bottom { border-bottom:none; }
+.no-border-top { border-top:none; }
+
+.no-bullet, .no-list-style { list-style:none; }
+
+.cursor-pointer { cursor: pointer; }
+.cursor-default { cursor: default; }
+.cursor-crosshair { cursor: crosshair}
+.cursor-move { cursor: move}
+.cursor-help { cursor: help; }
+.cursor-wait { cursor: wait; }
+.cursor-inherit { cursor: inherit; }
+.cursor-text { cursor: text; }
+.cursor-progress { cursor: progress; }
+
+.cursor-grab {
+    cursor:hand;
+    cursor:grab;
+    cursor:-moz-grab;
+    cursor:-webkit-grab;
+}
+.cursor-grabbing {
+    cursor:grabbing;
+    cursor:-moz-grabbing;
+    cursor:-webkit-grabbing;
+}
+
+.ellipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}

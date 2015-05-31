@@ -1,0 +1,20 @@
+# Windows image file caches
+.DS_Store
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+dist
+build
+parts
+bin
+.notes
+.DS_Store
+.sass-cache
+node_modules
+npm-debug.log
+app/assets/bower_components
+
+#files
+/nbproject/
+/ignore/
